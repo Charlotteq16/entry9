@@ -1,0 +1,103 @@
+body{
+    background-color:rgb(163, 97, 97);
+}
+
+.image{
+    border: dashed rgb(0, 0, 0);
+    border-width: 10px;
+}
+
+.bw-image{
+    position:absolute;
+    right:7%;
+    top: 27%;
+}
+
+
+.number9{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-size:xx-large;
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0);
+    border-width: 5px;
+}
+
+.INFO-CONTAINER{
+    width: 30%;
+    height:.5%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 20%;
+    right:6%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1px;
+    border: solid;
+    border-width: 10px;
+    animation-name: AnimateBorder;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+}
+
+@keyframes AnimateBorder{
+    50%{ border-color:rgb(161, 12, 7);}
+    100%{border-color:rgb(231, 116, 116);}
+  }
+
+.INFO-CONTAINER:hover{
+    transition: width 3s, height 3s, opacity 2s;
+    height: 58%;
+    font-size: 35px;
+    flex: 4;
+}
+
+.info-word{
+    font-size: 500%;
+    position: absolute;
+    top: 10%;
+    right:15%;
+}
+
+.information{
+width: 90%;
+position:relative;
+left: 5%;
+top: 1%;
+}
+
+.thoughts{
+width: 95%;
+position:relative;
+left: 1%;
+top:.5%;
+}
+
+.thoughts-word{
+font-size: 500%;
+position:absolute;
+bottom:5%;
+right:7%;
+}
+
+.thoughts-container{
+width: 30%;
+height:.5%;
+background-color: whitesmoke;
+position: absolute;
+bottom:15%;
+right:6%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 0px;
+border: solid;
+border-width: 10px;
+animation-name: AnimateBorder;
+animation-duration: 5s;
+animation-iteration-count: infinite; 
+}
+
+.thoughts-container:hover{
+transition: width 3s, height 3s, opacity 2s;
+height: 58%;
+font-size: 20px; 
+}
